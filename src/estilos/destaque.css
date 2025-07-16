@@ -1,0 +1,127 @@
+#container {
+  background-color: black;
+}
+.intro {
+    background-color: transparent;
+    color: rgb(38, 134, 194);
+    text-shadow: 5px -3px rgb(146, 206, 57);
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+}
+
+section .content_1 {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+section .content_2 {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+section .content_3 {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+#botao {
+  padding: 10px;
+  width: 120px;
+  color: rgb(41, 41, 219);
+  background-color: transparent;
+  border-top: 2px solid aqua;
+  border-right: 2px solid aqua;
+  border-bottom: 2px solid #ff0000;
+  border-left: 2px solid #ff0000;
+  box-shadow: 5px 3px #ff0000;
+}
+
+#container .card {
+  margin: 5px;
+  background-color: black;
+  border-top: 2px solid aqua;
+  border-right: 2px solid aqua;
+  border-bottom: 2px solid red;
+  border-left: 2px solid red;
+  text-align: center;
+}
+#container .card :hover {
+  transition: 0.95s;
+  border-radius: 200px;
+  transform: translate(1px, 5px) scale(600px, 600px);
+  transform: rotate(10px);
+}
+
+audio {
+  width: 230px;
+  padding: 5px;
+  margin: 10px;
+}
+audio {
+  color: aquamarine;
+}
+.card-body :hover {
+  transition: 0.5s;
+  color: aqua;
+  font-size: 15px;
+}
+@media screen and (max-width: 768px) {
+  #container {
+    background-image: url(images/fundo_5.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  section .content_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section .content_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section .content_3 {
+    flex-direction: column;
+    align-items: center;
+  }
+  audio {
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 2000px) {
+  #container {
+    background-color: black;
+    width: 100%;
+  }
+  section .content_1 {
+    display: flex;
+  padding: 10px;
+  justify-content: space-around;
+    
+  }
+
+  section .content_2 {
+   display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  }
+  section .content_3 {
+   display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  }
+  audio {
+    width: 130px;
+    padding: 5px;
+    margin: 10px;
+    position: relative;
+    right: 10px;
+  }
+}

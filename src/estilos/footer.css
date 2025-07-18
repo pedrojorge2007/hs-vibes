@@ -23,6 +23,17 @@ footer {
 a {
   text-decoration: none;
 }
+.imagem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.imagem-cont{
+  border-radius: 100%;
+  box-shadow:  2px -2px 5dvh red;
+  animation: float 2s ease-in-out infinite;
+}
 .footer_list {
   display: flex;
   flex-direction: column;

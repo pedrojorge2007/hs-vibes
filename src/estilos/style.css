@@ -1,3 +1,10 @@
+.logo {
+  text-shadow: 2px 2px 2px red;
+  animation: palptier 1.5s ease-in-out infinite;
+  
+
+}
+
 .btn_class:hover{
   transition-property: all;
  background-color: black;
@@ -67,13 +74,15 @@ audio {
 .pagination {
   justify-content: center;
 }
+@keyframes palptier {
+
+  80% {
+    transform: scale(55%);
+  }
+}
 
 @media screen and (max-width: 768px) {
   #container {
-    background-image: url(/images/fundo_5.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
   }
   section .content_1 {

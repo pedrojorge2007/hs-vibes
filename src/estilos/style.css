@@ -60,6 +60,13 @@ section .content_3 {
   transform: rotate(10px);
 }
 
+.card-img-top {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
 audio {
   width: 230px;
   padding: 5px;
@@ -132,7 +139,7 @@ audio {
     width: 130px;
     padding: 5px;
     margin: 10px;
-    position: relative;
     right: 10px;
   }
 }
+

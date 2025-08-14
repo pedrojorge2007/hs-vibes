@@ -44,9 +44,10 @@ a {
 }
 #footer_subscrive {
   display: flex;
+  flex-direction: column;
   text-align: justify;
   gap: 1.5rem;
-  margin-left:50px;
+  margin-left:20px;
 }
 
 #input_group {
@@ -71,7 +72,7 @@ a {
 }
 @media screen and (max-width:768px){
     #footer_content{
-        grid-template-columns: repeat(1fr);
+        grid-template-columns: repeat(2fr);
         gap: 1.5rem;
       display: flex;
         flex-direction: column;
@@ -80,11 +81,12 @@ a {
 }
 @media screen and (max-width:430px){
     #footer_content{
-        grid-template-columns: repeat(1.1fr);
+        grid-template-columns: repeat(3.1fr);
         padding: 3rem 2rem;
         
     }
     
 }
+
 
 

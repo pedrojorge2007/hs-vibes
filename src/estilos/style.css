@@ -4,13 +4,17 @@
   
 
 }
-
+.btn_class{
+  background: black;
+  border:none;
+  border-radius: 15px;
+  color: red;
+  transition: 0.5s linear;
+}
 .btn_class:hover{
-  transition-property: all;
- background-color: black;
- border-radius: 10px;
  color: blue;
-
+  transform: traslateY(-10px) scale(1.1);
+  letter-spacing: 1px;
 }
 
 #container {
@@ -78,6 +82,29 @@ audio {
   color: aqua;
   font-size: 15px;
 }
+.like{
+  margin-top: 10px;
+  width:100%;
+  display: flex;
+  justify-content: space-beetwen;
+  align-items: center;
+
+.icon{
+    width: 20px
+    height:20px
+    border-radius:50%
+      transition: 0.5s linear
+  &:hover{
+  background: rgba(245, 10, 10, 0.658);
+  transform: translateY(-10px)
+  }
+     }
+  .fa-thumbs-up{
+    width: 20px
+    height:20px
+  }
+  
+  }
 .pagination {
   justify-content: center;
 }
@@ -142,4 +169,5 @@ audio {
     right: 10px;
   }
 }
+
 

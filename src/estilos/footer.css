@@ -43,8 +43,8 @@ a {
   list-style: none;
 }
 #footer_subscrive {
-  display: flex;
-  flex-direction: column;
+  
+  
   text-align: justify;
   gap: 1.5rem;
   margin-left:20px;
@@ -87,6 +87,7 @@ a {
     }
     
 }
+
 
 
 
